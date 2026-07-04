@@ -1,0 +1,20 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules/
+
+# Environment Variables (Secrets)
+.env
+.env.local
+.env.production
+.env.development
+
+# System / Editor files
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.sw?
