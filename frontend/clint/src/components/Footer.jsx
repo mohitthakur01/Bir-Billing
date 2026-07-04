@@ -8,9 +8,9 @@ const Footer = () => {
   return (
     <footer className="bg-slate-950 border-t border-slate-900/60 text-slate-400">
       <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           {/* Brand Info */}
-          <div className="col-span-1 md:col-span-1.5 space-y-4">
+          <div className="space-y-4">
             <div className="flex items-center space-x-2.5">
               <Compass className="h-6 w-6 text-[#008cff]" />
               <span className="font-outfit text-lg font-bold text-white tracking-tight">
@@ -62,19 +62,6 @@ const Footer = () => {
                 <span>info@birbillingtourism.com</span>
               </li>
             </ul>
-          </div>
-
-          {/* Admin Login Button */}
-          <div>
-            <h3 className="text-sm font-semibold text-slate-100 uppercase tracking-wider mb-4">
-              Management
-            </h3>
-            <Link
-              to="/admin/login"
-              className="inline-flex items-center justify-center px-4 py-2 bg-slate-900 border border-slate-800 rounded-xl text-xs font-semibold uppercase text-slate-400 hover:text-[#008cff] hover:border-[#008cff] hover:bg-[#008cff]/5 transition-all active:scale-95"
-            >
-              Admin Login
-            </Link>
           </div>
         </div>
 
